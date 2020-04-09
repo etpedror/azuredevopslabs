@@ -141,7 +141,7 @@
         },
         "kubernetesVersion": {
             "type": "string",
-            "defaultValue": "1.11.9",
+            "defaultValue": "1.14.7",
             "allowedValues": [
                 "1.14.7",
                 "1.12.7",
@@ -178,7 +178,7 @@
           {
             "type": "Microsoft.ContainerRegistry/registries",
             "name": "[parameters('acrName')]",
-            "apiVersion": "2017-10-01",
+            "apiVersion": "2019-05-01",
             "sku": {
                 "name": "[parameters('registrySku')]"
             },
